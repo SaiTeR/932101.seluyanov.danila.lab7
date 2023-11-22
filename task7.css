@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.draw-box{
+    border: 1px solid;
+    margin: 20px;
+
+    height: 90vh;
+}
+
+.square{
+    display: none;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid;
+}
+
+.circle{
+    display: none;
+
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.triangle{
+    display: none;
+
+    width: 250px;
+    height: 100px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    background-color: blue;
+
+}
